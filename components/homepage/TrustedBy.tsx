@@ -18,7 +18,7 @@ const brands = [
 
 export default function TrustedBy() {
   return (
-    <section className="w-full bg-white py-10 border-b border-gray-100">
+    <section className="w-full bg-white py-10">
       {/* Heading */}
       <p className="text-center text-[16px] font-semibold text-gray-700 tracking-wide mb-8">
         Trusted by leaders in 50+ industries
