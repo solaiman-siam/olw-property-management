@@ -44,3 +44,61 @@ export const services = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
 ];
+
+
+export const plans = [
+    {
+      name: "Freebie",
+      description:
+        "Ideal for individuals who need quick access to basic features.",
+      yearlyPrice: 0,
+      monthlyPrice: 0,
+      featured: false,
+      features: [
+        { text: "20,000+ PNG & SVG graphics", included: true },
+        { text: "Access to 100 million stock images", included: true },
+        { text: "Upload custom icons and fonts", included: true },
+        { text: "Unlimited Sharing", included: false },
+        { text: "Upload graphics & video in up to 4k", included: false },
+        { text: "Unlimited Projects", included: false },
+        { text: "Instant Access to our design system", included: false },
+        { text: "Create teams to collaborate on designs", included: false },
+      ],
+    },
+    {
+      name: "Professional",
+      description:
+        "Ideal for individuals who need advanced features and tools for client work.",
+      yearlyPrice: 50,
+      monthlyPrice: 5,
+      featured: true,
+      features: [
+        { text: "20,000+ PNG & SVG graphics", included: true },
+        { text: "Access to 100 million stock images", included: true },
+        { text: "Upload custom icons and fonts", included: true },
+        { text: "Unlimited Sharing", included: true },
+        { text: "Upload graphics & video in up to 4k", included: true },
+        { text: "Unlimited Projects", included: true },
+        { text: "Instant Access to our design system", included: false },
+        { text: "Create teams to collaborate on designs", included: false },
+      ],
+    },
+    {
+      name: "Enterprise",
+      description:
+        "Ideal for businesses who personalized services and security for large teams.",
+      yearlyPrice: 100,
+      monthlyPrice: 10,
+      featured: false,
+      features: [
+        { text: "20,000+ PNG & SVG graphics", included: true },
+        { text: "Access to 100 million stock images", included: true },
+        { text: "Upload custom icons and fonts", included: true },
+        { text: "Unlimited Sharing", included: true },
+        { text: "Upload graphics & video in up to 4k", included: true },
+        { text: "Unlimited Projects", included: true },
+        { text: "Instant Access to our design system", included: true },
+        { text: "Create teams to collaborate on designs", included: true },
+      ],
+    },
+  ];

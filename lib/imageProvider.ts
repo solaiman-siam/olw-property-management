@@ -21,6 +21,10 @@ import Monitor_Guest from '@/public/assets/images/monitor_guest.png'
 import TrackAndReport from '@/public/assets/images/track_report.png'
 import Guest_Inquiry from '@/public/assets/images/guest_inquiry.png'
 
+
+
+import DiscountArrow from '@/public/assets/images/discount_arrow.png'
+
 export const images = {
     GoogleLogo,
     HeroBg,
@@ -38,6 +42,7 @@ export const images = {
     Schedule_House,
     Monitor_Guest,
     TrackAndReport,
-    Guest_Inquiry
+    Guest_Inquiry,
+    DiscountArrow
 
 }
