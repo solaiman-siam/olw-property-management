@@ -1,4 +1,3 @@
-
 import { images } from "@/lib/imageProvider";
 import Image from "next/image";
 import Marquee from "react-fast-marquee";

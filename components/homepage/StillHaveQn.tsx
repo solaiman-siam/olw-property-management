@@ -1,5 +1,3 @@
-"use client";
-
 import { images } from "@/lib/imageProvider";
 import Image from "next/image";
 import Link from "next/link";
@@ -12,7 +10,7 @@ const avatars = [
 
 export default function StillHaveQn() {
   return (
-    <section className="w-full bg-gray-50 rounded-xl py-16 my-16 px-4">
+    <section className="w-full bg-gray-50 rounded-xl py-16 mt-16 px-4">
       <div className="max-w-lg mx-auto flex flex-col items-center text-center gap-5">
         {/* Overlapping Avatars */}
         <div className="flex items-center">

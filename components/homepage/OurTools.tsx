@@ -1,10 +1,7 @@
-"use client"
 import { logos } from "@/public/data/homeData";
 import Image from "next/image";
 
 const OurTools = () => {
-
-
 
   return (
     <div>

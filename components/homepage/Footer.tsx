@@ -2,7 +2,6 @@ import { images } from "@/lib/imageProvider";
 import { footerLinks, socialLinks } from "@/public/data/homeData";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 
 const Footer = () => {
   return (
@@ -23,7 +22,7 @@ const Footer = () => {
           </Link>
 
           {/* Description */}
-          <p className="text-sm text-gray-700 w-10/12 leading-relaxed">
+          <p className="text-sm font-medium text-gray-700 w-10/12 leading-relaxed">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
             dictum aliquet accumsan porta lectus ridiculus in mattis. Netus
             sodales in volutpat ullamcorper amet adipiscing fermentum.

@@ -1,7 +1,6 @@
 import { images } from "@/lib/imageProvider";
 import { CheckIcon } from "lucide-react";
 import Image from "next/image";
-import Link from "next/link";
 import ScheduleMeetingBtn from "../shared/ScheduleMeetingBtn";
 
 const WhyChoose = () => {

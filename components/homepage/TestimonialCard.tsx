@@ -1,8 +1,5 @@
-"use client";
-
 import { Star } from "lucide-react";
 import Image, { StaticImageData } from "next/image";
-
 
 const TestimonialCard = ({
   name,

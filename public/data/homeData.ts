@@ -160,7 +160,7 @@ export const testimonials = [
   {
     id: 3,
     name: "Robert Fox",
-     avatar: images.Profile2,
+     avatar: images.Profile1,
     review:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     rating: 4,
@@ -168,7 +168,7 @@ export const testimonials = [
   {
     id: 4,
     name: "Cameron Williamson",
-    avatar: images.Profile1,
+    avatar: images.Profile2,
     review:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     rating: 5,
@@ -184,7 +184,7 @@ export const testimonials = [
   {
     id: 6,
     name: "Leslie Alexander",
-    avatar: images.Profile1,
+    avatar: images.Profile2,
     review:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     rating: 5,
