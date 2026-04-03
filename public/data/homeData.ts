@@ -117,3 +117,23 @@ export const logos = [
   { id: 8, name: "Guesty", src: images.Guesty_Logo },
   { id: 9, name: "Lodgify", src: images.Lodgify_Logo },
 ];
+
+
+
+export const steps = [
+  {
+    id: "01",
+    label: "Add requirements & sign up today",
+    icon: images.Add_People,
+  },
+  {
+    id: "02",
+    label: "Connect with your CSM & onboarding team",
+    icon: images.Connect_People,
+  },
+  {
+    id: "03",
+    label: "Meet your STR Assistant next week",
+    icon: images.Headset,
+  },
+];

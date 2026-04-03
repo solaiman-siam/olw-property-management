@@ -1,3 +1,5 @@
+import GettingStart from "@/components/homepage/GettingStart";
+import GettingStar from "@/components/homepage/GettingStart";
 import Hero from "@/components/homepage/Hero";
 import Navbar from "@/components/homepage/Navbar";
 import OurServices from "@/components/homepage/Ourservices";
@@ -15,6 +17,7 @@ export default function Home() {
      <OurServices/>
      <PricingPlan/>
      <OurTools/>
+     <GettingStart/>
     </div>
   );
 }

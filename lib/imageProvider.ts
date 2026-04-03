@@ -33,6 +33,11 @@ import Lodgify_Logo from '@/public/assets/images/lodgify.png'
 import BeyondPricing_Logo from '@/public/assets/images/beyond_pricing.png'
 
 
+import Number_Elips from '@/public/assets/images/number_elips.png'
+import Headset from '@/public/assets/images/headset.png'
+import Connect_People from '@/public/assets/images/people_connect.png'
+import Add_People from '@/public/assets/images/add_people.png'
+
 export const images = {
     GoogleLogo,
     HeroBg,
@@ -57,5 +62,10 @@ export const images = {
     Guesty_Logo,
     Hostfully_Logo,
     Lodgify_Logo,
-    BeyondPricing_Logo,    
+    BeyondPricing_Logo, 
+    
+    Number_Elips,
+    Headset,
+    Connect_People,
+    Add_People
 }

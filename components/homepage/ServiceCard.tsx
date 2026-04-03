@@ -12,7 +12,7 @@ const ServiceCard = ({
   description: string;
 }) => {
   return (
-    <div className="flex flex-col bg-[#fcfcfc] hover:bg-white  border border-primary01/10 rounded-2xl p-7 shadow-sm hover:shadow-md transition-all duration-300">
+    <div className="flex flex-col hover:-translate-y-1 bg-[#fcfcfc] hover:bg-white  border border-primary01/10 rounded-2xl p-7 shadow-sm hover:shadow-md transition-all duration-300">
       {/* Icon */}
       <div className="pb-6">
         <Image
