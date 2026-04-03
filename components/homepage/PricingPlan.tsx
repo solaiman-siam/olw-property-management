@@ -82,7 +82,7 @@ const PricingPlan = () => {
             {plans.map((plan, index) => (
               <div
                 key={plan.name}
-                className={`relative overflow-hidden hover:-translate-y-1.5 transition-all duration-300  flex border border-primary01/20 rounded-xl flex-col p-6 ${
+                className={`relative overflow-hidden hover:-translate-y-1.5 transition-all duration-300  flex border border-primary01/30 rounded-xl flex-col p-6 ${
                   plan.featured
                     ? "bg-primary01  text-white  shadow-2xl  z-10 "
                     : "bg-white  text-gray-800"
@@ -100,7 +100,7 @@ const PricingPlan = () => {
                 {/* Description */}
                 <p
                   className={`text-sm mb-6 leading-relaxed ${
-                    plan.featured ? "text-pink-100" : "text-gray-500"
+                    plan.featured ? "text-pink-100" : "text-black"
                   }`}
                 >
                   {plan.description}
@@ -109,7 +109,7 @@ const PricingPlan = () => {
                 {/* Price */}
                 <div className="flex items-end gap-1 mb-6">
                   <span
-                    className={`text-5xl font-extrabold leading-none ${
+                    className={`text-5xl font-medium leading-none ${
                       plan.featured ? "text-white" : "text-gray-900"
                     }`}
                   >
@@ -128,7 +128,7 @@ const PricingPlan = () => {
                 <button
                   className={`w-full py-3 px-6 rounded-md font-semibold text-sm transition-all duration-200 mb-8 cursor-pointer ${
                     plan.featured
-                      ? "bg-white text-primary01 hover:bg-pink-50 shadow-md"
+                      ? "bg-white text-primary01 border-2 border-white hover:bg-pink-50 shadow-md"
                       : "bg-white text-primary01 border-2 border-primary01/90 hover:bg-pink-50"
                   }`}
                 >
@@ -157,7 +157,7 @@ const PricingPlan = () => {
                               ? "text-white"
                               : "text-pink-200"
                             : feature.included
-                              ? "text-gray-700"
+                              ? "text-black"
                               : "text-gray-400"
                         }`}
                       >

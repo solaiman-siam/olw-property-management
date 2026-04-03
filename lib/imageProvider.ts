@@ -25,6 +25,14 @@ import Guest_Inquiry from '@/public/assets/images/guest_inquiry.png'
 
 import DiscountArrow from '@/public/assets/images/discount_arrow.png'
 
+import PriceLab_Logo from '@/public/assets/images/price_lab.png'
+import WheelHouse_Logo from '@/public/assets/images/wheelhouse.png'
+import Guesty_Logo from '@/public/assets/images/guesty.png'
+import Hostfully_Logo from '@/public/assets/images/hostfully.png'
+import Lodgify_Logo from '@/public/assets/images/lodgify.png'
+import BeyondPricing_Logo from '@/public/assets/images/beyond_pricing.png'
+
+
 export const images = {
     GoogleLogo,
     HeroBg,
@@ -43,6 +51,11 @@ export const images = {
     Monitor_Guest,
     TrackAndReport,
     Guest_Inquiry,
-    DiscountArrow
-
+    DiscountArrow,
+    PriceLab_Logo,
+    WheelHouse_Logo,
+    Guesty_Logo,
+    Hostfully_Logo,
+    Lodgify_Logo,
+    BeyondPricing_Logo,    
 }
