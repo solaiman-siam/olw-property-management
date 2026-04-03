@@ -230,3 +230,58 @@ export const faqs = [
       "You can update your account email from the profile settings page. A verification link will be sent to your new email address.",
   },
 ];
+
+
+export const footerLinks = [
+  {
+    heading: "Company",
+    links: [
+      { label: "About", href: "/about" },
+      { label: "Features", href: "/features" },
+      { label: "Works", href: "/works" },
+      { label: "Career", href: "/career" },
+    ],
+  },
+  {
+    heading: "Help",
+    links: [
+      { label: "Customer Support", href: "/support" },
+      { label: "Delivery Details", href: "/delivery" },
+      { label: "Terms & Conditions", href: "/terms" },
+      { label: "Privacy Policy", href: "/privacy" },
+    ],
+  },
+  {
+    heading: "Resources",
+    links: [
+      { label: "Free eBooks", href: "/ebooks" },
+      { label: "Development Tutorial", href: "/tutorials" },
+      { label: "How to – Blog", href: "/blog" },
+      { label: "Youtube Playlist", href: "/youtube" },
+    ],
+  },
+];
+
+
+export const socialLinks = [
+  {
+    label: "Twitter",
+    href: "https://twitter.com",
+    icon: images.Twitter
+  },
+  {
+    label: "Facebook",
+    href: "https://facebook.com",
+    icon: images.Facebook,
+  },
+  {
+    label: "Instagram",
+    href: "https://instagram.com",
+    icon: images.Instagram,
+  },
+  {
+    label: "GitHub",
+    href: "https://github.com",
+    icon: images.Github,
+  },
+];

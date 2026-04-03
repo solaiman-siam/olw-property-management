@@ -34,8 +34,6 @@ const Testimonials = () => {
                 name={t.name}
                 avatar={t.avatar}
                 review={t.review}
-                rating={t.rating}
-                featured={t.featured}
               />
             ))}
           </Marquee>

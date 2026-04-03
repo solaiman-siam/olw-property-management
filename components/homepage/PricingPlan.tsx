@@ -124,7 +124,7 @@ const PricingPlan = () => {
                   </span>
                 </div>
 
-                {/* CTA Button */}
+                {/*Button */}
                 <button
                   className={`w-full py-3 px-6 rounded-md font-semibold text-sm transition-all duration-200 mb-8 cursor-pointer ${
                     plan.featured

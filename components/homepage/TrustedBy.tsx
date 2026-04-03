@@ -14,8 +14,6 @@ const brands = [
   { name: "Expedia", src: images.Expedia_Logo }
 ];
 
-
-
 export default function TrustedBy() {
   return (
     <section className="w-full bg-white py-10">

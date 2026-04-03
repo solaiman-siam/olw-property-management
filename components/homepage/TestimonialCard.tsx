@@ -4,19 +4,14 @@ import { Star } from "lucide-react";
 import Image, { StaticImageData } from "next/image";
 
 
-
 const TestimonialCard = ({
   name,
   review,
-  rating,
   avatar,
-  featured,
 }: {
   name: string;
   review: string;
-  rating: number;
   avatar: StaticImageData | string;
-  featured?: boolean;
 }) => {
   return (
     <div

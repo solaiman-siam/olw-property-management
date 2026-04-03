@@ -4,7 +4,6 @@ import HeroBg from '@/public/assets/images/hero-background.png'
 import HeroBalls from '@/public/assets/images/arounder_balls.png'
 import HeroLogo from '@/public/assets/images/hero-logo.png'
 
-
 import Arbnb_Logo from '@/public/assets/images/arbnb_logo.png'
 import TripAdvisor_Logo from '@/public/assets/images/tripadvisor.png'
 import Agoda_Logo from '@/public/assets/images/agoda.png'
@@ -13,15 +12,12 @@ import Vrbo_Logo from '@/public/assets/images/vrbo.png'
 import HomeGo_Logo from '@/public/assets/images/homego.png'
 import Expedia_Logo from '@/public/assets/images/expedia.png'
 
-
 import Manage_Property from '@/public/assets/images/manage_property.png'
 import Manage_Customer from '@/public/assets/images/manage_customer.png'
 import Schedule_House from '@/public/assets/images/schedule_house.png'
 import Monitor_Guest from '@/public/assets/images/monitor_guest.png'
 import TrackAndReport from '@/public/assets/images/track_report.png'
 import Guest_Inquiry from '@/public/assets/images/guest_inquiry.png'
-
-
 
 import DiscountArrow from '@/public/assets/images/discount_arrow.png'
 
@@ -43,6 +39,15 @@ import WhyChooseUs from '@/public/assets/images/why_choose_us.png'
 
 import Profile1 from '@/public/assets/images/profile01.png'
 import Profile2 from '@/public/assets/images/profile02.png'
+
+import Avater1 from '@/public/assets/images/avatar01.png'
+import Avater2 from '@/public/assets/images/avatar02.png'
+import Avater3 from '@/public/assets/images/avatar03.png'
+
+import Twitter from '@/public/assets/images/x.png'
+import Facebook from '@/public/assets/images/fb.png'
+import Instagram from '@/public/assets/images/instagram.png'
+import Github from '@/public/assets/images/github.png'
 
 export const images = {
     GoogleLogo,
@@ -77,5 +82,13 @@ export const images = {
     WhyChooseUs,
 
     Profile1,
-    Profile2
+    Profile2,
+    Avater1,
+    Avater2,
+    Avater3,
+
+    Facebook,
+    Twitter,
+    Instagram,
+    Github
 }

@@ -1,7 +1,6 @@
 "use client"
 import { logos } from "@/public/data/homeData";
 import Image from "next/image";
-import React, { useState } from "react";
 
 const OurTools = () => {
 
@@ -33,7 +32,6 @@ const OurTools = () => {
                   transition-all duration-200 cursor-pointer outline-none
                 `}
               >
-                {/* Swap LogoPlaceholder with <Image> once you have real assets */}
                 {
                   <Image
                     src={logo.src}

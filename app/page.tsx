@@ -8,6 +8,8 @@ import PricingPlan from "@/components/homepage/PricingPlan";
 import TrustedBy from "@/components/homepage/TrustedBy";
 import WhyChoose from "@/components/homepage/WhyChoose";
 import FAQ from "@/components/homepage/FAQ";
+import StillHaveQn from "@/components/homepage/StillHaveQn";
+import Footer from "@/components/homepage/Footer";
 
 export default function Home() {
   return (
@@ -22,6 +24,8 @@ export default function Home() {
       <WhyChoose/>
       <ClientReview/>
       <FAQ/>
+      <StillHaveQn/>
+      <Footer/>
     </div>
   );
 }
