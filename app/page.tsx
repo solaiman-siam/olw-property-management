@@ -1,3 +1,4 @@
+import ClientReview from "@/components/homepage/Testimonials";
 import GettingStart from "@/components/homepage/GettingStart";
 import Hero from "@/components/homepage/Hero";
 import Navbar from "@/components/homepage/Navbar";
@@ -6,6 +7,7 @@ import OurTools from "@/components/homepage/OurTools";
 import PricingPlan from "@/components/homepage/PricingPlan";
 import TrustedBy from "@/components/homepage/TrustedBy";
 import WhyChoose from "@/components/homepage/WhyChoose";
+import FAQ from "@/components/homepage/FAQ";
 
 export default function Home() {
   return (
@@ -18,6 +20,8 @@ export default function Home() {
       <OurTools />
       <GettingStart />
       <WhyChoose/>
+      <ClientReview/>
+      <FAQ/>
     </div>
   );
 }

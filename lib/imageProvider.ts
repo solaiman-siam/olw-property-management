@@ -41,6 +41,9 @@ import Add_People from '@/public/assets/images/add_people.png'
 
 import WhyChooseUs from '@/public/assets/images/why_choose_us.png'
 
+import Profile1 from '@/public/assets/images/profile01.png'
+import Profile2 from '@/public/assets/images/profile02.png'
+
 export const images = {
     GoogleLogo,
     HeroBg,
@@ -71,5 +74,8 @@ export const images = {
     Headset,
     Connect_People,
     Add_People,
-    WhyChooseUs
+    WhyChooseUs,
+
+    Profile1,
+    Profile2
 }

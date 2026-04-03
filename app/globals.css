@@ -11,5 +11,6 @@
   --color-foreground: var(--foreground);
   --font-dm-sans: var(--font-dm-sans);
   --color-primary01: var(--main);
+  --shadow-soft: 0 20px 20px rgba(0, 0, 0, 0.08);
 }
 

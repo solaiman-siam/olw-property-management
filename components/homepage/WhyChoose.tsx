@@ -45,10 +45,15 @@ const WhyChoose = () => {
           </span>
         </Link>
 
+        {/* right part */}
         <div className="absolute top-1/2 -translate-y-1/2 right-10">
-
-            <Image className="w-150" src={images.WhyChooseUs} alt="choose_us_image" width={2000} height={200}/>
-
+          <Image
+            className="w-150"
+            src={images.WhyChooseUs}
+            alt="choose_us_image"
+            width={2000}
+            height={200}
+          />
         </div>
       </div>
     </div>

@@ -1,0 +1,56 @@
+"use client";
+
+import { Star } from "lucide-react";
+import Image, { StaticImageData } from "next/image";
+
+
+
+const TestimonialCard = ({
+  name,
+  review,
+  rating,
+  avatar,
+  featured,
+}: {
+  name: string;
+  review: string;
+  rating: number;
+  avatar: StaticImageData | string;
+  featured?: boolean;
+}) => {
+  return (
+    <div
+      className={`
+    mx-3 w-120 rounded-2xl flex items-center my-6 gap-7 p-10 transition-all duration-200
+    hover:bg-white bg-gray-100 hover:shadow-soft   
+  `}
+    >
+      <div className="">
+        <Image
+          className="rounded-full object-cover w-20 h-20"
+          src={avatar}
+          alt=""
+          width={56}
+          height={56}
+        />
+      </div>
+
+      <div className="flex flex-1 flex-col ">
+        <h4 className={`font-bold pb-2 text-black text-lg`}>{name}</h4>
+        <p className="text-[13px] font-medium text-black leading-relaxed">
+          {review}
+        </p>
+
+        <div className="flex items-center gap-1 mt-2">
+            <Star className="size-5" fill="#ff9d00" stroke="0"/>
+            <Star className="size-5" fill="#ff9d00" stroke="0"/>
+            <Star className="size-5" fill="#ff9d00" stroke="0"/>
+            <Star className="size-5" fill="#ff9d00" stroke="0"/>
+            <Star className="size-5" fill="#ff9d00" stroke="0"/>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default TestimonialCard;

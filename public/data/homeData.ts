@@ -137,3 +137,96 @@ export const steps = [
     icon: images.Headset,
   },
 ];
+
+
+export const testimonials = [
+  {
+    id: 1,
+    name: "Jenny Wilson",
+    avatar: images.Profile1,
+    review:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    rating: 4,
+  },
+  {
+    id: 2,
+    name: "Esther Howard",
+     avatar: images.Profile2,
+    review:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    rating: 4,
+    featured: true, // white card, elevated
+  },
+  {
+    id: 3,
+    name: "Robert Fox",
+     avatar: images.Profile2,
+    review:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    rating: 4,
+  },
+  {
+    id: 4,
+    name: "Cameron Williamson",
+    avatar: images.Profile1,
+    review:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    rating: 5,
+  },
+  {
+    id: 5,
+    name: "Brooklyn Simmons",
+    avatar: images.Profile1,
+    review:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    rating: 4,
+  },
+  {
+    id: 6,
+    name: "Leslie Alexander",
+    avatar: images.Profile1,
+    review:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    rating: 5,
+  },
+];
+
+
+export const faqs = [
+  {
+    id: 1,
+    question: "Is there a free trial available?",
+    answer:
+      "Yes, you can try us for free for 30 days. If you want, we'll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
+  },
+  {
+    id: 2,
+    question: "Can I change my plan later?",
+    answer:
+      "Yes, you can upgrade or downgrade your plan at any time from your account settings. Changes take effect immediately.",
+  },
+  {
+    id: 3,
+    question: "What is your cancellation policy?",
+    answer:
+      "You can cancel your subscription at any time. You'll continue to have access until the end of your current billing period.",
+  },
+  {
+    id: 4,
+    question: "Can other info be added to an invoice?",
+    answer:
+      "Yes, you can add additional information such as your company name, VAT number, or address to your invoices from the billing settings.",
+  },
+  {
+    id: 5,
+    question: "How does billing work?",
+    answer:
+      "We bill monthly or annually depending on your chosen plan. You'll receive an invoice via email after each payment.",
+  },
+  {
+    id: 6,
+    question: "How do I change my account email?",
+    answer:
+      "You can update your account email from the profile settings page. A verification link will be sent to your new email address.",
+  },
+];
