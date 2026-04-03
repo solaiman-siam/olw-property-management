@@ -1,53 +1,69 @@
 
-import GoogleLogo from '@/public/assets/images/google-logo.png'
-import HeroBg from '@/public/assets/images/hero-background.png'
-import HeroBalls from '@/public/assets/images/arounder_balls.png'
-import HeroLogo from '@/public/assets/images/hero-logo.png'
+// navbar & hero
+import GoogleLogo from '@/public/assets/images/homepage/google-logo.png'
+import HeroBg from '@/public/assets/images/homepage/hero-background.png'
+import HeroBalls from '@/public/assets/images/homepage/arounder_balls.png'
+import HeroLogo from '@/public/assets/images/homepage/hero-logo.png'
 
-import Arbnb_Logo from '@/public/assets/images/arbnb_logo.png'
-import TripAdvisor_Logo from '@/public/assets/images/tripadvisor.png'
-import Agoda_Logo from '@/public/assets/images/agoda.png'
-import BookingCom_Logo from '@/public/assets/images/booking.com.png'
-import Vrbo_Logo from '@/public/assets/images/vrbo.png'
-import HomeGo_Logo from '@/public/assets/images/homego.png'
-import Expedia_Logo from '@/public/assets/images/expedia.png'
+// sponsors
+import Arbnb_Logo from '@/public/assets/images/homepage/arbnb_logo.png'
+import TripAdvisor_Logo from '@/public/assets/images/homepage/tripadvisor.png'
+import Agoda_Logo from '@/public/assets/images/homepage/agoda.png'
+import BookingCom_Logo from '@/public/assets/images/homepage/booking.com.png'
+import Vrbo_Logo from '@/public/assets/images/homepage/vrbo.png'
+import HomeGo_Logo from '@/public/assets/images/homepage/homego.png'
+import Expedia_Logo from '@/public/assets/images/homepage/expedia.png'
 
-import Manage_Property from '@/public/assets/images/manage_property.png'
-import Manage_Customer from '@/public/assets/images/manage_customer.png'
-import Schedule_House from '@/public/assets/images/schedule_house.png'
-import Monitor_Guest from '@/public/assets/images/monitor_guest.png'
-import TrackAndReport from '@/public/assets/images/track_report.png'
-import Guest_Inquiry from '@/public/assets/images/guest_inquiry.png'
+// services
+import Manage_Property from '@/public/assets/images/homepage/manage_property.png'
+import Manage_Customer from '@/public/assets/images/homepage/manage_customer.png'
+import Schedule_House from '@/public/assets/images/homepage/schedule_house.png'
+import Monitor_Guest from '@/public/assets/images/homepage/monitor_guest.png'
+import TrackAndReport from '@/public/assets/images/homepage/track_report.png'
+import Guest_Inquiry from '@/public/assets/images/homepage/guest_inquiry.png'
 
-import DiscountArrow from '@/public/assets/images/discount_arrow.png'
-
-import PriceLab_Logo from '@/public/assets/images/price_lab.png'
-import WheelHouse_Logo from '@/public/assets/images/wheelhouse.png'
-import Guesty_Logo from '@/public/assets/images/guesty.png'
-import Hostfully_Logo from '@/public/assets/images/hostfully.png'
-import Lodgify_Logo from '@/public/assets/images/lodgify.png'
-import BeyondPricing_Logo from '@/public/assets/images/beyond_pricing.png'
+// pricing
+import DiscountArrow from '@/public/assets/images/homepage/discount_arrow.png'
 
 
-import Number_Elips from '@/public/assets/images/number_elips.png'
-import Headset from '@/public/assets/images/headset.png'
-import Connect_People from '@/public/assets/images/people_connect.png'
-import Add_People from '@/public/assets/images/add_people.png'
+// our tools
+import PriceLab_Logo from '@/public/assets/images/homepage/price_lab.png'
+import WheelHouse_Logo from '@/public/assets/images/homepage/wheelhouse.png'
+import Guesty_Logo from '@/public/assets/images/homepage/guesty.png'
+import Hostfully_Logo from '@/public/assets/images/homepage/hostfully.png'
+import Lodgify_Logo from '@/public/assets/images/homepage/lodgify.png'
+import BeyondPricing_Logo from '@/public/assets/images/homepage/beyond_pricing.png'
 
 
-import WhyChooseUs from '@/public/assets/images/why_choose_us.png'
 
-import Profile1 from '@/public/assets/images/profile01.png'
-import Profile2 from '@/public/assets/images/profile02.png'
+// how it works
+import Number_Elips from '@/public/assets/images/homepage/number_elips.png'
+import Headset from '@/public/assets/images/homepage/headset.png'
+import Connect_People from '@/public/assets/images/homepage/people_connect.png'
+import Add_People from '@/public/assets/images/homepage/add_people.png'
 
-import Avater1 from '@/public/assets/images/avatar01.png'
-import Avater2 from '@/public/assets/images/avatar02.png'
-import Avater3 from '@/public/assets/images/avatar03.png'
 
-import Twitter from '@/public/assets/images/x.png'
-import Facebook from '@/public/assets/images/fb.png'
-import Instagram from '@/public/assets/images/instagram.png'
-import Github from '@/public/assets/images/github.png'
+// why choose us
+import WhyChooseUs from '@/public/assets/images/homepage/why_choose_us.png'
+
+
+// testimonials
+import Profile1 from '@/public/assets/images/homepage/profile01.png'
+import Profile2 from '@/public/assets/images/homepage/profile02.png'
+
+
+// still have qn
+import Avater1 from '@/public/assets/images/homepage/avatar01.png'
+import Avater2 from '@/public/assets/images/homepage/avatar02.png'
+import Avater3 from '@/public/assets/images/homepage/avatar03.png'
+
+
+// footer
+import Twitter from '@/public/assets/images/homepage/x.png'
+import Facebook from '@/public/assets/images/homepage/fb.png'
+import Instagram from '@/public/assets/images/homepage/instagram.png'
+import Github from '@/public/assets/images/homepage/github.png'
+
 
 export const images = {
     GoogleLogo,
