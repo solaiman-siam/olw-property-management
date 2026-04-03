@@ -1,5 +1,5 @@
 <h1>🏠 Airbnb Assistant Landing Page</h1>
-<p>A modern and fully responsive landing page for an Airbnb short-term rental management assistant platform.</p>
+<p>This is a modern SaaS landing page built for an Airbnb/short-term rental (STR) management assistant platform. It helps property hosts automate and streamline their rental operations.</p>
 
 
 <h2>Live Link : </h2> 
