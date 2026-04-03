@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const GettingStart = () => {
   return (
-    <div className="py-14">
+    <div className="py-14 ">
       {/* ── Heading ── */}
       <div className="text-center mb-4">
         <h2 className="text-4xl font-bold">
@@ -20,10 +20,10 @@ const GettingStart = () => {
         commodo consequat.
       </p>
 
-      <section className="w-full bg-white pt-6 px-4">
+      <section className="w-full pt-6 px-4">
         <div className="max-w-5xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-            {steps.map((step) => (
+            {steps.map((step, index) => (
               <div
                 key={step.id}
                 className="flex  flex-col items-center text-center gap-6"
@@ -47,7 +47,7 @@ const GettingStart = () => {
                   {/* Icon card */}
                   <div className="w-full bg-gray-50 border border-gray-100 rounded-2xl pt-10 pb-8 px-6 flex items-center justify-center h-50">
                     <Image
-                      className="w-22"
+                      className={`${index === 1 ? 'w-20' : 'w-14'}`}
                       src={step.icon}
                       alt="step_icon"
                       width={400}

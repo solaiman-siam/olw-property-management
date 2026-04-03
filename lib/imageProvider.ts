@@ -38,6 +38,9 @@ import Headset from '@/public/assets/images/headset.png'
 import Connect_People from '@/public/assets/images/people_connect.png'
 import Add_People from '@/public/assets/images/add_people.png'
 
+
+import WhyChooseUs from '@/public/assets/images/why_choose_us.png'
+
 export const images = {
     GoogleLogo,
     HeroBg,
@@ -67,5 +70,6 @@ export const images = {
     Number_Elips,
     Headset,
     Connect_People,
-    Add_People
+    Add_People,
+    WhyChooseUs
 }
