@@ -17,7 +17,7 @@ export default function TrustedBy() {
   return (
     <section className="w-full bg-white py-10">
       {/* Heading */}
-      <p className="text-center text-[16px] font-semibold text-gray-700 tracking-wide mb-8">
+      <p className="text-center text-[15px] md:text-base font-semibold text-gray-700 tracking-wide mb-8">
         Trusted by leaders in 50+ industries
       </p>
 
@@ -34,8 +34,8 @@ export default function TrustedBy() {
           className="overflow-hidden"
         >
           {brands.map((brand) => (
-            <div key={brand.name} className="mx-8">
-              <Image className="w-26" src={brand.src} width={400} height={400} alt="company_logo"/>
+            <div key={brand.name} className="md:mx-8 mx-5">
+              <Image className="md:w-26 w-18" src={brand.src} width={400} height={400} alt="company_logo"/>
             </div>
           ))}
         </Marquee>

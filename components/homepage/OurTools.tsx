@@ -7,25 +7,25 @@ const OurTools = () => {
     <div>
       {/* ── Heading ── */}
       <div className="text-center mb-4">
-        <h2 className="text-4xl font-bold">
+        <h2 className="md:text-4xl text-3xl font-bold">
           Our <span className="text-primary01">Tools</span>
         </h2>
       </div>
 
       {/* ── Subtext ── */}
-      <p className="text-sm text-black font-medium text-center max-w-3xl mx-auto leading-relaxed mb-12">
+      <p className="text-sm text-black font-medium text-center px-4 md:px-0 max-w-3xl mx-auto leading-relaxed mb-12">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
       </p>
 
-       <section className="w-full bg-[#F7F7F8] py-14 px-4">
+       <section className="w-full bg-[#F7F7F8] py-6 md:py-14 px-4">
       <div className="max-w-5xl mx-auto">
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
           {logos.map((logo) => {
             return (
               <button
                 key={logo.id}
                 className={`
-                  group relative bg-white hover:-translate-y-1 hover:shadow-lg rounded-xl h-34 flex items-center justify-center
+                  group relative bg-white hover:-translate-y-1 hover:shadow-lg rounded-xl md:p-0 p-8 h-20 md:h-34 flex items-center justify-center
                   transition-all duration-200 cursor-pointer outline-none
                 `}
               >

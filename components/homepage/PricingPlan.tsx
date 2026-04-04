@@ -10,12 +10,12 @@ const PricingPlan = () => {
   const [isYearly, setIsYearly] = useState(false);
 
   return (
-    <div className="py-16">
+    <div className="md:py-16 py-0">
       {/* heading section */}
       <section className="w-full bg-white pt-16 pb-10 px-4">
         <div className="max-w-3xl mx-auto text-center">
           {/* ── Heading ── */}
-          <h2 className="text-4xl font-bold text-black  mb-4">
+          <h2 className="md:text-4xl text-3xl font-bold text-black  mb-4">
             Airnbn Assistent <span className="text-[#E8385A]">pricing</span>
           </h2>
 
@@ -61,7 +61,7 @@ const PricingPlan = () => {
             </span>
 
             {/* ── Save badge with arrow ── */}
-            <div className="absolute -right-48 -bottom-9 flex items-end gap-1 pointer-events-none">
+            <div className="absolute hidden  -right-48 -bottom-9 md:flex items-end gap-1 pointer-events-none">
               <Image
                 className="w-24"
                 src={images.DiscountArrow}
@@ -78,7 +78,7 @@ const PricingPlan = () => {
 
       <section className="bg-white py-10 px-4">
         <div className="max-w-5xl mx-auto">
-          <div className="grid grid-cols-3 gap-4 rounded-2xl  ">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 rounded-2xl  ">
             {plans.map((plan, index) => (
               <div
                 key={plan.name}

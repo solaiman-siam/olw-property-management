@@ -4,16 +4,16 @@ import { testimonials } from "@/public/data/homeData";
 
 const Testimonials = () => {
   return (
-    <div className="py-16">
+    <div className="md:py-16 py-8">
       {/* ── Heading ── */}
       <div className="text-center mb-4">
-        <h2 className="text-4xl font-bold">
+        <h2 className="md:text-4xl text-3xl font-bold">
           Check Our Clients <span className="text-primary01">Review</span>
         </h2>
       </div>
 
       {/* ── Subtext ── */}
-      <p className="text-sm text-black font-medium text-center max-w-3xl mx-auto leading-relaxed mb-12">
+      <p className="text-sm text-black font-medium text-center max-w-3xl mx-auto md:px-0 px-6 leading-relaxed mb-12">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea

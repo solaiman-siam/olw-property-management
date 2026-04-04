@@ -15,17 +15,17 @@ export default function Home() {
   return (
     <div className="flex flex-col flex-1 font-dm-sans   bg-[#fcfcfc] ">
       <Navbar />
-      <Hero />
-      <TrustedBy />
-      <OurServices />
+      <Hero  />
+     <TrustedBy />
+       {/* <OurServices /> */}
       <PricingPlan />
-      <OurTools />
-      <GettingStart />
-      <WhyChoose/>
+     <OurTools />
+       <GettingStart />
+     <WhyChoose/>
       <ClientReview/>
       <FAQ/>
       <StillHaveQn/>
-      <Footer/>
+      <Footer/> 
     </div>
   );
 }
